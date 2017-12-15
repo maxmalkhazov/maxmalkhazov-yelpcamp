@@ -29,7 +29,7 @@ app.use(flash());
 // PASSPORT CONFIG
 
 app.use(require("express-session")({
-    secret: "Fire walk with me",
+    secret: "webdevproject1",
     resave: false,
     saveUninitialized: false
 }));
