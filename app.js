@@ -17,7 +17,7 @@ var campgroundRoutes = require("./routes/campgrounds"),
     indexRoutes      = require("./routes/index");
     
 mongoose.connect(process.env.DATABASEURL);
-// mongoose.connect("mongodb://max:test@ds141406.mlab.com:41406/webdevproject1");
+
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + "/public"));
 app.set("view engine", "ejs");
@@ -28,7 +28,7 @@ app.use(flash());
 // PASSPORT CONFIG
 
 app.use(require("express-session")({
-    secret: "Fire walk with me",
+    secret: "webdevproject1",
     resave: false,
     saveUninitialized: false
 }));
