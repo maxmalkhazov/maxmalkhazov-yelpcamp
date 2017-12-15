@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="/stylesheet/main.css">
     </head>
     <body>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="/">YelpCamp</a>
@@ -18,7 +18,7 @@
                             <li><a href="/login">Login</a></li>
                             <li><a href="/register"><i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up</a></li>
                        <% } else { %>
-                            <li><a href="#">Hello, <%= currentUser.username %> !</a></li>
+                            <li><a href="#">Hello, <%= currentUser.username %>!</a></li>
                             <li><a href="/logout"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a></li>
                        <% } %>
                     </ul>
