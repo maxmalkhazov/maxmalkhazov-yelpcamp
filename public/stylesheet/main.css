@@ -1,0 +1,40 @@
+
+body {
+    background-color: #ecf0f1;
+}
+
+.page-header {
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 25px;
+}
+
+.index-image {
+    width: 100%;
+    min-height: 175px;
+    max-height: 175px;
+}
+
+.image {
+    margin-bottom: 20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+.delete-form {
+    display: inline;
+}
+
+.footer {
+    text-align: center;
+    bottom: 0;
+    margin-top: 100px;
+}
